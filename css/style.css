@@ -1,0 +1,242 @@
+/* GERAL */
+body{
+	font-family: 'Montserrat', sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	width: 1024px;
+	margin: 0px auto;
+}
+
+.col-5 {
+	width: 40%;
+	float: left;
+}
+.col-7 {
+	width: 60%;
+	float: left;
+}
+
+section{
+	overflow: hidden;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+}
+
+section .vermais{
+	display: block;
+	width: 207px;
+	margin: 0px auto;
+	background-color: #161310;
+	border-radius:8px;
+	border: none;
+	color: #fff;
+	padding: 10px 0px; 
+	font-size: 16px;
+}
+
+a,
+a:hover,
+a:focus,
+a:active,
+a.active {
+    outline: 0;
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+/* HEADER */ 
+header{
+	background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url(../images/banner.jpg);
+	background-size: cover;
+	overflow: hidden;
+}
+
+header img{
+	margin-top: 30px;
+	margin-left: 10px;
+}
+
+.barra-preta{
+	background-color: rgba(0,0,0,0.6);
+	box-shadow: 0px 2px 0px #000;
+	overflow: hidden;
+}
+
+nav{
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+	padding: 15px;
+}
+
+nav li a{
+	font-size: 18px;
+	font-weight: bold;
+}
+
+header h1 {
+ 	text-align: center;
+ 	padding: 150px 10px 40px;
+ 	font-size: 52px;
+ 	color: #fff;
+ 	text-shadow: 2px 1px 3px #000;
+
+}
+
+header button {
+ 	margin-left: auto;
+ 	margin-right: auto;
+}
+ 
+header .buttons-header button{
+	background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+	border: 3px solid #FFF;
+	font-size: 25px;
+	color: #fff;
+	text-shadow: 2px 1px 3px #000;
+	border-radius: 3px;
+	padding: 16px;
+	width: 285px;
+	margin-bottom: 140px;
+	margin-left: 10px;
+	font-weight: bold;
+}
+
+/* SECTION MATERIAL */
+.material img {
+	margin: 0px auto;
+	display: block;
+}
+
+.material h1{
+	text-align: center;
+	font-size: 35px;
+	color: #F16529;
+	letter-spacing: 8px;
+}
+
+.material p{
+	text-align: justify;
+}
+
+
+/* SECTION CURSOS */
+.cursos h1{
+	text-align: center;
+	font-size: 35px;
+	color: #F16529;
+	letter-spacing: 8px;
+}
+
+.cursos .all-cursos {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 1024px;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cursos .all-cursos .bg-item {
+    width: 100%;
+    max-width: 238px;
+    height: 335px;
+    background-color: #fff;
+    border: 1px solid #d9d9d9;
+    box-shadow: 2px 2px 0px #d9d9d9;
+    margin-left: 5px;
+    margin-bottom: 30px;
+}
+
+.bg-item .bg-color {
+	height: 220px;
+}
+
+.bg-item .orange {
+	background-color: #d65b43;
+}
+
+.bg-item .blue {
+	background-color: #46b6e6;
+}
+
+.bg-item .yellow {
+	background-color: #f3ca4b;
+}
+
+.bg-item .red {
+	background-color: #b21300;
+}
+
+.bg-item .red1 {
+	background-color: #a72d3a;
+}
+
+.bg-item .purple {
+	background-color: #8a2bff;
+}
+
+.bg-item .bg-color img {
+	margin: 0px auto;
+	display: block;
+}
+
+.bg-item .bg-color span{
+	display: block;
+	color: #fff;
+	margin-left: 12px;
+	margin-top: 5px;
+	line-height: .9
+}
+
+.bg-item .bg-color span b{
+	font-size: 14px;
+}
+
+.bg-item .infos{
+	text-align: center;
+	color: #333a4c;
+	padding-top: 25px;
+}
+.bg-item .infos button{
+	margin-top: 25px;
+	border-radius:8px;
+	color: #fff;
+	font-weight: bold;
+	letter-spacing: 4px;
+	font-size: 16px;
+	border: none;
+	padding: 10px 5px;
+
+}
+
+.html .bg-item .infos button{
+	background-color: #ff7f00;
+}
+
+.rails .bg-item .infos button{
+	background-color: #a72d3a;
+}
+
+/* FOOTER CURSOS */
+footer {
+	background-color: #161310;
+	padding: 20px 0px;
+}
+footer span{
+	display: block;
+	color: #fff;
+	text-align: center;
+}
